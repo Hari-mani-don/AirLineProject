@@ -1,0 +1,36 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{    
+    background-image: url(/images/airplane.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-brand {
+    margin-right: auto; /* Pushes the brand/logo to the left */
+}
+
+.navbar .dropdown-toggle::after {
+    display: none; /* Hides the default dropdown indicator */
+}
+
+.navbar .dropdown-toggle .fa-user-circle {
+    font-size: 1.5rem; /* Increase the size of the profile icon */
+}
+
+.lists{
+    margin-left: 30px;
+}
+@media (max-width: 767.98px) {
+    .navbar-nav.ml-auto {
+        margin-left: auto; /* Aligns the profile dropdown to the right on mobile */
+    }
+}
+
+
+
+
